@@ -557,6 +557,6 @@ int SunSet::moonPhase(int fromepoch)
  */
 int SunSet::moonPhase()
 {
-    time_t t = std::time(0);
+    time_t t = now();
     return moonPhase(static_cast<int>(t));
 }

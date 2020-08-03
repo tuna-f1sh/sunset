@@ -27,7 +27,7 @@
 #define __SUNPOSITION_H__
 
 #include <cmath>
-#include <ctime>
+#include <TimeLib.h>
 
 #define SUNSET_OFFICIAL         90.833
 #define SUNSET_NAUTICAL         102
